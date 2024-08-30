@@ -1,0 +1,237 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 2px solid orange; /* Purple border */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: orange; /* Purple color */
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: orange; /* Purple color on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://media.istockphoto.com/id/1354041251/photo/beautiful-young-caucasian-female-client-customer-choosing-new-car-trying-checking-its-options.jpg?s=612x612&w=0&k=20&c=pvhuRWZ7GSKbw17tRfu5wzl9zkJXZrAkSs9m2fJ65f8=') no-repeat center center/cover;
+    color: orange; /* Purple color */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: orange; /* Purple button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: orange; /* Darker purple on hover */
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Services Section */
+.services {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.user-profile {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Locations Section */
+.locations {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.locations-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.location-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* User Profiles */
+.user-profile {
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px;
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    object-fit: cover; /* Ensures the image scales correctly within the circle */
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.user-profile {
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px;
+    width: 120px; /* Set width */
+    height: 120px; /* Set height */
+    object-fit: cover; /* Ensures the image scales correctly within the circle */
+}
